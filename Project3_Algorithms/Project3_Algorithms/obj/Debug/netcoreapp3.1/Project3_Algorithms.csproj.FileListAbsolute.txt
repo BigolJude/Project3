@@ -1,0 +1,13 @@
+C:\Users\jude2\Source\Repos\Project3_Algorithms\Project3_Algorithms\bin\Debug\netcoreapp3.1\Project3_Algorithms.exe
+C:\Users\jude2\Source\Repos\Project3_Algorithms\Project3_Algorithms\bin\Debug\netcoreapp3.1\Project3_Algorithms.deps.json
+C:\Users\jude2\Source\Repos\Project3_Algorithms\Project3_Algorithms\bin\Debug\netcoreapp3.1\Project3_Algorithms.runtimeconfig.json
+C:\Users\jude2\Source\Repos\Project3_Algorithms\Project3_Algorithms\bin\Debug\netcoreapp3.1\Project3_Algorithms.runtimeconfig.dev.json
+C:\Users\jude2\Source\Repos\Project3_Algorithms\Project3_Algorithms\bin\Debug\netcoreapp3.1\Project3_Algorithms.dll
+C:\Users\jude2\Source\Repos\Project3_Algorithms\Project3_Algorithms\bin\Debug\netcoreapp3.1\Project3_Algorithms.pdb
+C:\Users\jude2\Source\Repos\Project3_Algorithms\Project3_Algorithms\obj\Debug\netcoreapp3.1\Project3_Algorithms.csproj.AssemblyReference.cache
+C:\Users\jude2\Source\Repos\Project3_Algorithms\Project3_Algorithms\obj\Debug\netcoreapp3.1\Project3_Algorithms.AssemblyInfoInputs.cache
+C:\Users\jude2\Source\Repos\Project3_Algorithms\Project3_Algorithms\obj\Debug\netcoreapp3.1\Project3_Algorithms.AssemblyInfo.cs
+C:\Users\jude2\Source\Repos\Project3_Algorithms\Project3_Algorithms\obj\Debug\netcoreapp3.1\Project3_Algorithms.csproj.CoreCompileInputs.cache
+C:\Users\jude2\Source\Repos\Project3_Algorithms\Project3_Algorithms\obj\Debug\netcoreapp3.1\Project3_Algorithms.dll
+C:\Users\jude2\Source\Repos\Project3_Algorithms\Project3_Algorithms\obj\Debug\netcoreapp3.1\Project3_Algorithms.pdb
+C:\Users\jude2\Source\Repos\Project3_Algorithms\Project3_Algorithms\obj\Debug\netcoreapp3.1\Project3_Algorithms.genruntimeconfig.cache
