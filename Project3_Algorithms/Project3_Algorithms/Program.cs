@@ -25,11 +25,9 @@ namespace Project3_Algorithms
         static void Main(string[] args)
         {
             int EntryPoint = 6;
-            Addition(EntryPoint,1,"WAK");
-            EntryPoint = Remove(EntryPoint);
-            Addition(EntryPoint, 2, "AAA");
-            EntryPoint = Remove(EntryPoint);
-            Addition(EntryPoint, 3, "LAP");
+            EntryPoint =Addition(EntryPoint,5,"ZZZ");
+
+            // EntryPoint = Remove(EntryPoint);
             for (int i=0;i!=PriorityQueue.Length/2;i++)
             {
                 Console.WriteLine(i + ") " + JobDescription[i] + " - " + PriorityQueue[i, 0] + " - " + PriorityQueue[i, 1]);
@@ -42,9 +40,8 @@ namespace Project3_Algorithms
             int Next = EntryPoint;
             while(Next!=(PriorityQueue.Length/2))
             {
-                if (ValueToFind<=PriorityQueue[Next,1])
+                if((PriorityQueue.Length / 2)!= PriorityQueue[PriorityQueue[Next, 1], 1]||ValueToFind<= PriorityQueue[PriorityQueue[Next, 1], 0])
                 {
-                   
                     if (ValueToFind >= PriorityQueue[PriorityQueue[Next, 1], 0])
                     {
                         Next = PriorityQueue[Next, 1];
@@ -56,9 +53,9 @@ namespace Project3_Algorithms
                 }
                 else
                 {
+                    Next = PriorityQueue[Next, 1];
                     break;
                 }
-
             }
             return Next;
         }
@@ -77,6 +74,7 @@ namespace Project3_Algorithms
             }
             if (!IsFull)
             {
+                
                 TempPoint = Traverse(EntryPoint, ValueToAdd);
                 PriorityQueue[InsertPoint, 1] = PriorityQueue[TempPoint, 1];
                 PriorityQueue[TempPoint, 1] = InsertPoint;
